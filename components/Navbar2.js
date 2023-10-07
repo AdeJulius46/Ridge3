@@ -20,27 +20,27 @@ const Navbar2 = () => {
     <div className='' > 
     {/* for laergescreen */}
 <header className=" hidden  md:block flex border-b-1  cursor-pointer bg-none bg-opacity-30 ">
-      <nav className=" mb-5 mt-2  border-hr flex justify-between px-5 items-center">
+      <nav className=" mb-5 mt-2  text-[22.291px] border-hr flex   px-5 items-center">
         <div className="ml-16">
 
         <Link href="/" className="">  <Image src={logo1} 
         width={130}
         alt="Ridge Logo" /></Link>
         </div>
-        <div className="   mt-4 mr-8 w-3/6">
-          <ul className="flex justify-between ">
-            <Link href="/" className="px-2 cursor-pointer">
+        <div className="   mt-4 px-8 ml-16 ">
+          <ul className="flex justify-between px-8 uppercase ">
+            <Link href="/" className="px-4 cursor-pointer">
               Home
             </Link>
-            <Link href="/ " className="" >About</Link>
-            <Link href="/" className="">Solutions</Link>
-            <Link href="/" className="">Investors Relations</Link>
-            <Link href="/" className="">FAQ</Link>
+            <Link href="/ " className="px-4 ml-2" >About</Link>
+            <Link href="/" className="px-4 ml-2">Solutions</Link>
+            <Link href="/" className="px-4 ml-2">Investors Relations</Link>
+            <Link href="/" className="px-4 ml-3">FAQ</Link>
             <Link
               href="/Contactus"
-              className="bg-black w-[134px] co h-[50px] px-3 py-3  text-white  rounded text-center cursor-pointer"
+              className="bg-[#FFC655]   ml-4  co  px-1 py-1  text-[black]  rounded text-center cursor-pointer"
             >
-              Contact us 
+              Contact us
             </Link>
           </ul>
         </div> 
@@ -65,7 +65,7 @@ const Navbar2 = () => {
           <div className="">
             <Link href="/" className="">  <Image src={logo1} 
                 width={130}
-                  alt="Ridge Logo" />
+                  alt="Ridge   Logo" />
             </Link>
           </div>
           <div className="ml-16"  >
@@ -75,7 +75,7 @@ const Navbar2 = () => {
             {
               toggle &&(
                 <div className="absolute  bg-white text-black  text-[27px] w-[136vw] left-[2px] top-[1px] h-[60vh] right-[40px] p-3  " onClick={togglebtn}>
-                  <ul className="flex flex-col justify-between  ">
+                  <ul className="flex flex-col justify-between  uppercase  ">
                     
                 <button className=" ml-[88%]  mt-2 border border-black ">  
                 <Image  src={List}  width={40}  />
@@ -89,7 +89,7 @@ const Navbar2 = () => {
             <Link href="/" className="cursor-pointer mt-4">FAQ</Link>
             <Link
               href="/Contactus"
-              className="bg-black w-[170px] px-2 py-2 rounded text-center  mt-4 text-white rounded cursor-pointer"
+              className="bg-black w-[190px] px-2 py-2 rounded text-center  mt-4 text-white rounded cursor-pointer"
             >
               Contact us 
 
