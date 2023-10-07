@@ -1,8 +1,12 @@
 import Image from "next/image"
-import Cas from '../public/Images/fera.png'
+import Cas from '../public/Images/Frame1.png'
+import Cas1 from '../public/Images/Frame4.png'
 const craft = () => {
   return (
-<div>
+<div className="ml-24 mr-16  mb-16">
+
+  <div className="flex justify-between">
+
  
 <div className="w-[378px] relative">
    <div className="">
@@ -10,15 +14,42 @@ const craft = () => {
     </div> 
     <div className="absolute w-[378px] h-[150px]  juliut" >
     </div>
-    <div>
-  <p>
+    <div className="p-2  w-[341px]  text-[21.894px] join">
+  <p className=" p-3 "> 
       Raise the bar with Ridge
-Energies as your Edible and 
-Technical Grade Ethanol 
-supplier. We provide the best 
-for your craft, ensuring the 
-highest standards of quality 
-and reliability.
+      Energies as your Edible and 
+      Technical Grade Ethanol 
+      supplier. We provide the best 
+      for your craft, ensuring the 
+      highest standards of quality 
+      and reliability.
+        </p>
+    </div>
+</div>
+
+
+<div  className="bg-black w-[184px] h-[184px] justify-center  mr-8 who content-center relative">
+  <p className="text-white text-[31px] px-5 py-10 font-[600]">
+WHO ARE WE FOR
+  </p>
+    <div className="absolute top-[50%] right-[-54%]"><svg xmlns="http://www.w3.org/2000/svg" width="384" height="6" viewBox="0 0 694 6" fill="none">
+<path d="M0 3L694 3" stroke="#001A00" stroke-width="5" stroke-dasharray="10 10"/>
+</svg></div>
+</div>
+<div className="w-[378px] relative">
+   <div className="">
+    <Image src={Cas1} />
+    </div> 
+    <div className="absolute w-[378px] h-[150px]    juliut" >
+    </div>
+    <div className="p-3  w-[341px]  text-[21.894px] join">
+  <p className=" p-3 "> 
+        Join the movement towards a
+      more sustainable lifestyle. 
+      Ridge Energies' Fuel-Grade 
+      Ethanol powers homes and 
+      kitchens with clean energy, 
+      transforming your everyday.
         </p>
     </div>
 </div>
@@ -26,6 +57,7 @@ and reliability.
 
 
 
+  </div>
  </div>
   )
 }

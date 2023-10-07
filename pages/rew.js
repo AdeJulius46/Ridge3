@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Ric from '../public/Images/ric.png'
 const rew = () => {
   return (
-    <div  className='flex gap-4 justify-between '>
+    <div  className='flex gap-4 justify-between  ml-24 mr-16'>
 <div className='basis-1/2'>
     <div className='text-[21px]'>
 At Ridge Energies, we don't just provide
