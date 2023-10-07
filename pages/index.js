@@ -29,7 +29,7 @@ const index = () => {
 
 <Craft />
       </div>
-      <div className='mt-24'>
+      <div className='mt-40'>
 
 <Connect />
       </div>
