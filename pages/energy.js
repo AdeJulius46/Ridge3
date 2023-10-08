@@ -92,16 +92,16 @@ const energy = () => {
       </div>
      {/* small screeen */}
       <div className='md:hidden'>
-        <p  className='text-center p-4 text-[19px] uppercase font-bold mb-2'>   Why Ridge  energy stands out </p>
+        <p  className='text-center p-6   text-[19px] uppercase font-bold mb-2'>   Why Ridge  energy stands out </p>
         <div
-        className='flex flex-col'>
-          <div className='flex '>
+        className='flex flex-col '>
+          <div className='flex border-b-2 border-[rgba(242, 255, 242, 0.87)]'>
             <div className='  basis-1/6'>
               <Image  src={Mat3} />
             </div>
-            <div className=' basis-4/5'>
+            <div className=' basis-4/5 '>
                 <p className='font-[500] px-2'>PINNACLE OF QUALITY</p>
-                <p className='text-[12px]  p-2'>We take quality to soaring heights. Our Edible Grade Ethanol
+                <p className='text-[12px]  p-2 t'>We take quality to soaring heights. Our Edible Grade Ethanol
                   is the preferred choice of craft brewers and distillers,
                   guaranteeing impeccable purity for the finest alcoholic
                   beverages. Our Technical Grade Ethanol unlocks precision
@@ -111,13 +111,13 @@ const energy = () => {
             </div>
           </div>
           <div>
-          <div className='flex '>
+          <div className='flex mt-6 border-b-2 border-[rgba(242, 255, 242, 0.87)]'>
             <div className='  basis-1/6 '>
               <Image  src={Mat2} />
             </div>
             <div className=' basis-4/5'>
                 <p className='font-[500] px-2'>SAFETY, OUR NORTH STAR</p>
-                <p className='text-[12px]  p-2'>Safety is our guiding star. Ridge Energies ensures strict 
+                <p className='text-[12px]  p-2 t'>Safety is our guiding star. Ridge Energies ensures strict 
                  compliance with safety regulations, allowing you to use our 
                   products with complete confidence, whether you're a 
                   manufacturer or a home che.
@@ -127,13 +127,13 @@ const energy = () => {
          
           </div>
           <div>
-          <div className='flex '>
+          <div className='flex mt-6 '>
             <div className='  basis-1/6 '>
               <Image  src={Mat} />
             </div>
             <div className=' basis-4/5'>
                 <p className='font-[500] px-2'>ECO CHAMPIONS</p>
-                <p className='text-[12px] p-2'>Green is our favorite color! Our ethanol products are 
+                <p className='text-[12px] t p-2'>Green is our favorite color! Our ethanol products are 
             -friendly, nurturing a greener future by promoting 
                 clean energy and sustainable practices
                   </p>

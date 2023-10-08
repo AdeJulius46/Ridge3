@@ -8,11 +8,11 @@ const craft = () => {
   <div className=" hidden md:flex justify-between">
 <div className="w-[378px] relative">
    <div className="">
-    <Image src={Cas} />
+    <Image src={Cas} className="rounded-t-lg" />
     </div> 
     <div className="absolute w-[378px] h-[150px]  juliut" >
     </div>
-    <div className="p-2  w-[341px]  text-[21.894px] join">
+    <div className="p-2  w-[341px] rounded-b-lg  text-[21.894px] join">
   <p className=" p-3 "> 
       Raise the bar with Ridge
       Energies as your Edible and 
@@ -36,12 +36,12 @@ WHO ARE WE FOR
 </div>
 <div className="w-[378px] relative">
    <div className="">
-    <Image src={Cas1} />
+    <Image src={Cas1} className="rounded-t-lg" />
     </div> 
     <div className="absolute w-[378px] h-[150px]    juliut" >
     </div>
-    <div className="p-3 w-[341px]  text-[18.894px]  md:text-[21.894px]  join">
-  <p className=" p-3 "> 
+    <div className="p-3 w-[341px] rounded-b-lg  text-[18.894px]  md:text-[21.894px]  join">
+  <p className=" p-3  rounded-b-lg"> 
         Join the movement towards a
       more sustainable lifestyle. 
       Ridge Energies' Fuel-Grade 
@@ -57,13 +57,13 @@ WHO ARE WE FOR
 
   </div>
     <div className=" md:hidden">
-      <p className="text-[23px]">WHO ARE WE FOR</p>
+      <p className="text-[23px]  text-center  mr-7 p-6 font-bold ">WHO ARE WE FOR</p>
   <div className="flex flex-col  justify-between gap-16 ">
-  <div className="w-[310px]">
-   <div className="w-full">
-    <Image src={Cas} width={310} />
+  <div className="w-[310px] ">
+   <div className="w-full rounded-t-lg">
+    <Image src={Cas} className="rounded-t-lg" width={310} />
     </div> 
-    <div className="p-2  text-[17.894px]  md:text-[21px] join">
+    <div className="p-2  text-[17.894px]   rounded-b-lg md:text-[21px] join">
   <p className=" p-2 "> 
       Raise the bar with Ridge
       Energies as your Edible and 
@@ -78,11 +78,11 @@ WHO ARE WE FOR
 
 
 
-<div className="w-[310px] relative">
-   <div className="w-full">
-    <Image src={Cas1}  width={310}/>
+<div className="w-[310px] rounded-md  ">
+   <div className="w-full ">
+    <Image src={Cas1} className="rounded-t-lg"  width={310}/>
     </div> 
-    <div className="p-2   text-[17.894px]  md:text-[21px]  join">
+    <div className="p-2   rounded-b-lg text-[17.894px]  md:text-[21px]  join">
   <p className=" p-2 "> 
         Join the movement towards a
       more sustainable lifestyle. 
