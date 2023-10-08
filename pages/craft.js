@@ -3,11 +3,9 @@ import Cas from '../public/Images/Frame1.png'
 import Cas1 from '../public/Images/Frame4.png'
 const craft = () => {
   return (
-<div className="ml-24 mr-16  mb-16">
+<div className="ml-2 mr-4  md:ml-24 md:mr-16  mb-16">
 
   <div className=" hidden md:flex justify-between">
-
- 
 <div className="w-[378px] relative">
    <div className="">
     <Image src={Cas} />
@@ -55,7 +53,51 @@ WHO ARE WE FOR
 </div>
 
 
+{/* small screen */}
 
+  </div>
+    <div className=" md:hidden">
+      <p className="text-[23px]">WHO ARE WE FOR</p>
+  <div className="flex flex-col  justify-between gap-16 ">
+  <div className="w-[360px] relative">
+   <div className="">
+    <Image src={Cas} />
+    </div> 
+    <div className="absolute w-[360px] h-[150px]  juliut" >
+    </div>
+    <div className="p-2  w-[341px]  text-[21.894px] join">
+  <p className=" p-2 "> 
+      Raise the bar with Ridge
+      Energies as your Edible and 
+      Technical Grade Ethanol 
+      supplier. We provide the best 
+      for your craft, ensuring the 
+      highest standards of quality 
+      and reliability.
+        </p>
+    </div>
+</div>
+
+
+
+<div className="w-[360px] relative">
+   <div className="">
+    <Image src={Cas1} />
+    </div> 
+    <div className="absolute w-[360px] h-[150px]    juliut" >
+    </div>
+    <div className="p-2  w-[341px]  text-[21.894px] join">
+  <p className=" p-2 "> 
+        Join the movement towards a
+      more sustainable lifestyle. 
+      Ridge Energies' Fuel-Grade 
+      Ethanol powers homes and 
+      kitchens with clean energy, 
+      transforming your everyday.
+        </p>
+        </div>
+      </div>
+    </div>
 
   </div>
  </div>

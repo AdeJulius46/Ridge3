@@ -4,17 +4,18 @@ import Ric from '../public/Images/Group 5.png'
 import Mid from '../public/Images/Group2.png'
 import Mid2 from '../public/Images/Group3.png'
 import Mid3 from '../public/Images/Group4.png'
+import Mat3 from '../public/Images/mat3.png'
+import Mat from '../public/Images/mat.png'
+import Mat2 from '../public/Images/mat2.png'
 const energy = () => {
   return (
     <div className='mt-8 energy '>
+
       <div className='hidden md:block   ml-24 mr-16 p-2'>
-
+      {/* large screen */}
         <p className='uppercase font-bold  mb-[80px] ml-[35%] text-[31.196px] font-[700]' >
-
         Why Ridge stands out  
         </p>
-
-
         <div className='grid grid-cols-2 gap-6  relative mt-4'>
             <div>
                 <div>
@@ -56,9 +57,6 @@ const energy = () => {
                 </div>
             </div>
 
-
-
-
             <div className='mt-24 mr-8'>
                 <div>
                 <Image src={Mid2}    />
@@ -89,6 +87,65 @@ const energy = () => {
 
               <Image  src={Mid}  />
             </div>
+
+        </div>
+      </div>
+     {/* small screeen */}
+      <div className='md:hidden'>
+        <p  className='text-center uppercase font-bold mb-4'>   Why Ridge  energy stands out </p>
+        <div
+        className='flex flex-col'>
+          <div className='flex '>
+            <div className='  basis-1/6'>
+              <Image  src={Mat3} />
+            </div>
+            <div className=' basis-4/5'>
+                <p className='font-[500] px-2'>PINNACLE OF QUALITY</p>
+                <p className='text-[12px]  p-2'>We take quality to soaring heights. Our Edible Grade Ethanol
+                  is the preferred choice of craft brewers and distillers,
+                  guaranteeing impeccable purity for the finest alcoholic
+                  beverages. Our Technical Grade Ethanol unlocks precision
+                  and excellence in manufacturing,trusted by industry leaders
+                  for its unrivaled purity and reliability.
+                  </p>
+            </div>
+          </div>
+          <div>
+          <div className='flex '>
+            <div className='  basis-1/6 '>
+              <Image  src={Mat2} />
+            </div>
+            <div className=' basis-4/5'>
+                <p className='font-[500] px-2'>PINNACLE OF QUALITY</p>
+                <p className='text-[12px]  p-2'>We take quality to soaring heights. Our Edible Grade Ethanol
+                  is the preferred choice of craft brewers and distillers,
+                  guaranteeing impeccable purity for the finest alcoholic
+                  beverages. Our Technical Grade Ethanol unlocks precision
+                  and excellence in manufacturing,trusted by industry leaders
+                  for its unrivaled purity and reliability.
+                  </p>
+            </div>
+          </div>
+         
+          </div>
+          <div>
+          <div className='flex '>
+            <div className='  basis-1/6 '>
+              <Image  src={Mat} />
+            </div>
+            <div className=' basis-4/5'>
+                <p className='font-[500] px-2'>PINNACLE OF QUALITY</p>
+                <p className='text-[12px] p-2'>We take quality to soaring heights. Our Edible Grade Ethanol
+                  is the preferred choice of craft brewers and distillers,
+                  guaranteeing impeccable purity for the finest alcoholic
+                  beverages. Our Technical Grade Ethanol unlocks precision
+                  and excellence in manufacturing,trusted by industry leaders
+                  for its unrivaled purity and reliability.
+                  </p>
+            </div>
+          </div>
+         
+          </div>
 
         </div>
       </div>

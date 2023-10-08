@@ -4,8 +4,8 @@ import Hand from '../public/Images/hand.png'
 const connect = () => {
   return (
     <div>
-        {/* <div className='flex-col md:flex-rol   md:ml-24   justify-between'>
-            <div className='w-[457px] text-[31px] font-[400] mt-8'>
+        <div className=' flex  flex-col   md:flex-row   md:ml-24   justify-between'>
+            <div className=' text-[26px] p-8  md:w-[457px] md:text-[31px] font-[400] mt-8'>
                 <p>
                 Ready to elevate your craft or 
                 transform your home with Ridge
@@ -21,7 +21,7 @@ const connect = () => {
                 <Image src={Hand} />
             </div>
 
-        </div> */}
+        </div>
     </div>
   )
 }

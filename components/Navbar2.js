@@ -61,7 +61,7 @@ const Navbar2 = () => {
             {/* for small screen */}
    
             <header className="md:hidden" >
-          <nav className="flex justify-between px-2 ">
+          <nav className="flex justify-between px-2 z-40 ">
           <div className="">
             <Link href="/" className="">  <Image src={logo1} 
                 width={130}
