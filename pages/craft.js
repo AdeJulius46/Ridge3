@@ -3,7 +3,7 @@ import Cas from '../public/Images/Frame1.png'
 import Cas1 from '../public/Images/Frame4.png'
 const craft = () => {
   return (
-<div className="ml-2 mr-4  md:ml-24 md:mr-16  mb-16">
+<div className="ml-8  md:ml-24 md:mr-16  mb-16">
 
   <div className=" hidden md:flex justify-between">
 <div className="w-[378px] relative">
@@ -59,13 +59,11 @@ WHO ARE WE FOR
     <div className=" md:hidden">
       <p className="text-[23px]">WHO ARE WE FOR</p>
   <div className="flex flex-col  justify-between gap-16 ">
-  <div className="w-[360px] relative">
-   <div className="">
-    <Image src={Cas} />
+  <div className="w-[360px]">
+   <div className="w-full">
+    <Image src={Cas} width={400} />
     </div> 
-    <div className="absolute w-[360px] h-[150px]  juliut" >
-    </div>
-    <div className="p-2  w-[341px]  text-[21.894px] join">
+    <div className="p-2   text-[21.894px] join">
   <p className=" p-2 "> 
       Raise the bar with Ridge
       Energies as your Edible and 
@@ -81,12 +79,10 @@ WHO ARE WE FOR
 
 
 <div className="w-[360px] relative">
-   <div className="">
-    <Image src={Cas1} />
+   <div className="w-full">
+    <Image src={Cas1}  width={400}/>
     </div> 
-    <div className="absolute w-[360px] h-[150px]    juliut" >
-    </div>
-    <div className="p-2  w-[341px]  text-[21.894px] join">
+    <div className="p-2   text-[21.894px] join">
   <p className=" p-2 "> 
         Join the movement towards a
       more sustainable lifestyle. 
