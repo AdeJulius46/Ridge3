@@ -6,15 +6,15 @@ import Link from '../public/Icons/uil_linkedin.svg'
 import What from '../public/Icons/mdi_whatsapp.svg'
 const Footer = () => {
   return (
-    <div className=' w-[137vw] md:w-full  bg-[#001A00] '>
+    <div className='  w-full md:w-full  bg-[#001A00] '>
       <div className='  border border-black bg-[#001A00] text-white '>
-         <div className='flex flex-col md:flex-row mt-16 ml-8'>
+         <div className='flex flex-col md:flex-row mt-16 ml-2 md:ml-8'>
           <div className=' basis-2/5 flex flex-row content-center ml-8 mb-8'> 
             <div><Image  src={Logo1}  alt='logo' /></div>
             <div className='mt-3 ml-4 '>example@gmail.com</div>
            </div>
            <div className='basis-1/2 flex flex-col'>
-              <div className=' basis-1/2 flex flex-row  justify-center  gap-16 '>
+              <div className=' basis-1/2 flex flex-row  justify-center gap-8 md:gap-16 '>
                 <div className=' flex  flex-col   gap-8 content-between  '>
                   <div >juhuygg</div>
                   <div>juhuygg</div>
@@ -46,7 +46,7 @@ const Footer = () => {
              </div>
              <div className='basis-1/2 flex flex-row mt-8 '>
               <div className='  ml-[2px] md:ml-[100px] '> <input  className=' p-1 rounded border border-white w-64  h-[50px] bg-[#001A00]' /> </div>
-              <div> <button  className='bg-white  w-[134px]  h-[50px] px-3 py-3  text-black ml-2 rounded '>Send</button></div>
+              <div> <button  className='bg-white  w-full  h-[50px] px-3 py-3  text-black ml-2 rounded '>Send</button></div>
             
              </div>
             </div>

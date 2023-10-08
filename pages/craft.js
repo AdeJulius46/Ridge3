@@ -5,7 +5,7 @@ const craft = () => {
   return (
 <div className="ml-24 mr-16  mb-16">
 
-  <div className="flex justify-between">
+  <div className=" hidden md:flex justify-between">
 
  
 <div className="w-[378px] relative">

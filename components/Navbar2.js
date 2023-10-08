@@ -60,24 +60,24 @@ const Navbar2 = () => {
 
             {/* for small screen */}
    
-            <header className="   md:hidden" >
-          <nav className="flex justify-between px-2 ml-8 w-[125vw]">
+            <header className="md:hidden" >
+          <nav className="flex justify-between px-2 ">
           <div className="">
             <Link href="/" className="">  <Image src={logo1} 
                 width={130}
                   alt="Ridge   Logo" />
             </Link>
           </div>
-          <div className="ml-16"  >
+          <div className=""  >
             <button className="ml-16 mt-2 border border-black  " onClick={togglebtn} >  
                 <Image  src={List}  width={40}  />
             </button>
             {
               toggle &&(
-                <div className="absolute  bg-white text-black  text-[27px] w-[136vw] left-[2px] top-[1px] h-[60vh] right-[40px] p-3  " onClick={togglebtn}>
+                <div className="absolute  bg-white text-black  text-[27px] w-full left-[2px] top-[1px] h-[60vh] right-[40px] p-3  " onClick={togglebtn}>
                   <ul className="flex flex-col justify-between  uppercase  ">
                     
-                <button className=" ml-[88%]  mt-2 border border-black ">  
+                <button className="self-end  mt-2 border border-black ">  
                 <Image  src={List}  width={40}  />
               </button>
             <Link href="/" className="px-2 cursor-pointer">
@@ -89,7 +89,7 @@ const Navbar2 = () => {
             <Link href="/" className="cursor-pointer mt-4">FAQ</Link>
             <Link
               href="/Contactus"
-              className="bg-black w-[190px] px-2 py-2 rounded text-center  mt-4 text-white rounded cursor-pointer"
+              className="bg-[#FFC655]  w-[190px] sha px-2 py-2 rounded text-center  mt-4 text-[black] rounded cursor-pointer"
             >
               Contact us 
 

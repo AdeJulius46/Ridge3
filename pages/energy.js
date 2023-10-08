@@ -7,9 +7,9 @@ import Mid3 from '../public/Images/Group4.png'
 const energy = () => {
   return (
     <div className='mt-8 energy '>
-      <div className='ml-24 mr-16 p-2'>
+      <div className='hidden md:block   ml-24 mr-16 p-2'>
 
-        <p className='uppercase font-bold  ml-[35%] text-[31.196px] font-[700]' >
+        <p className='uppercase font-bold  mb-[80px] ml-[35%] text-[31.196px] font-[700]' >
 
         Why Ridge stands out  
         </p>
