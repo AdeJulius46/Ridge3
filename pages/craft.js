@@ -59,9 +59,9 @@ WHO ARE WE FOR
     <div className=" md:hidden">
       <p className="text-[23px]">WHO ARE WE FOR</p>
   <div className="flex flex-col  justify-between gap-16 ">
-  <div className="w-[360px]">
+  <div className="w-[310px]">
    <div className="w-full">
-    <Image src={Cas} width={400} />
+    <Image src={Cas} width={310} />
     </div> 
     <div className="p-2  text-[17.894px]  md:text-[21px] join">
   <p className=" p-2 "> 
@@ -78,9 +78,9 @@ WHO ARE WE FOR
 
 
 
-<div className="w-[360px] relative">
+<div className="w-[310px] relative">
    <div className="w-full">
-    <Image src={Cas1}  width={400}/>
+    <Image src={Cas1}  width={310}/>
     </div> 
     <div className="p-2   text-[17.894px]  md:text-[21px]  join">
   <p className=" p-2 "> 
