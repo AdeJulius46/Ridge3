@@ -62,14 +62,14 @@ const Navbar2 = () => {
    
             <header className="md:hidden" >
           <nav className="flex justify-between px-2 z-40 ">
-          <div className="">
+          <div className="ml-6 mt-2">
             <Link href="/" className="">  <Image src={logo1} 
                 width={130}
                   alt="Ridge   Logo" />
             </Link>
           </div>
           <div className=""  >
-            <button className="ml-16 mt-2 border border-black  " onClick={togglebtn} >  
+            <button className="ml-16 mt-2  " onClick={togglebtn} >  
                 <Image  src={List}  width={40}  />
             </button>
             {
@@ -77,7 +77,7 @@ const Navbar2 = () => {
                 <div className="absolute  bg-white text-black  text-[27px] w-full left-[2px] top-[1px] h-[60vh] right-[40px] p-3  " onClick={togglebtn}>
                   <ul className="flex flex-col justify-between  uppercase  ">
                     
-                <button className="self-end  mt-2 border border-black ">  
+                <button className="self-end  mt-2  ">  
                 <Image  src={List}  width={40}  />
               </button>
             <Link href="/" className="px-2 cursor-pointer">

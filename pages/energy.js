@@ -92,7 +92,7 @@ const energy = () => {
       </div>
      {/* small screeen */}
       <div className='md:hidden'>
-        <p  className='text-center uppercase font-bold mb-4'>   Why Ridge  energy stands out </p>
+        <p  className='text-center p-4 text-[19px] uppercase font-bold mb-2'>   Why Ridge  energy stands out </p>
         <div
         className='flex flex-col'>
           <div className='flex '>
@@ -116,13 +116,11 @@ const energy = () => {
               <Image  src={Mat2} />
             </div>
             <div className=' basis-4/5'>
-                <p className='font-[500] px-2'>PINNACLE OF QUALITY</p>
-                <p className='text-[12px]  p-2'>We take quality to soaring heights. Our Edible Grade Ethanol
-                  is the preferred choice of craft brewers and distillers,
-                  guaranteeing impeccable purity for the finest alcoholic
-                  beverages. Our Technical Grade Ethanol unlocks precision
-                  and excellence in manufacturing,trusted by industry leaders
-                  for its unrivaled purity and reliability.
+                <p className='font-[500] px-2'>SAFETY, OUR NORTH STAR</p>
+                <p className='text-[12px]  p-2'>Safety is our guiding star. Ridge Energies ensures strict 
+                 compliance with safety regulations, allowing you to use our 
+                  products with complete confidence, whether you're a 
+                  manufacturer or a home che.
                   </p>
             </div>
           </div>
@@ -134,13 +132,10 @@ const energy = () => {
               <Image  src={Mat} />
             </div>
             <div className=' basis-4/5'>
-                <p className='font-[500] px-2'>PINNACLE OF QUALITY</p>
-                <p className='text-[12px] p-2'>We take quality to soaring heights. Our Edible Grade Ethanol
-                  is the preferred choice of craft brewers and distillers,
-                  guaranteeing impeccable purity for the finest alcoholic
-                  beverages. Our Technical Grade Ethanol unlocks precision
-                  and excellence in manufacturing,trusted by industry leaders
-                  for its unrivaled purity and reliability.
+                <p className='font-[500] px-2'>ECO CHAMPIONS</p>
+                <p className='text-[12px] p-2'>Green is our favorite color! Our ethanol products are 
+            -friendly, nurturing a greener future by promoting 
+                clean energy and sustainable practices
                   </p>
             </div>
           </div>

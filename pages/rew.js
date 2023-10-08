@@ -18,8 +18,9 @@ const rew = () => {
           of both industry giants and everyday
           households.
         </div> 
-
+          <div className='p-8 md:p-0'>
         <button  className=' text-black    w-full md:w-[280px] h-[51px]  text-[23px]  sha  mt-3  font-bold text-[#001A00] bg-[#FFC655] '>JOIN US</button>
+          </div>
     </div>
     <div className='basis-1/2 relative mr-16'>
       <div  className='' >

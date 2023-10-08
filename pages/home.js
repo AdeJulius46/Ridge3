@@ -17,7 +17,7 @@ const home = () => {
     <div  className='mb-12 flex flex-row justify-center content-center p-8'>
       <Image src={Group} />
     </div>
-    <div>
+    <div className='p-8 md:-0'>
     <button  className=' text-black    w-full md:w-[280px] h-[51px]  text-[23px]  sha  mt-3  font-bold text-[#001A00] bg-[#FFC655] '>CONTACT US</button>
     </div>
   </div>
