@@ -5,7 +5,7 @@ const connect = () => {
   return (
     <div>
         <div className=' flex  flex-col   md:flex-row   md:ml-24   justify-between'>
-            <div className=' p-8  md:w-[457px] -2  text-[17.894px]  md:text-[21px]font-[400] mt-8'>
+            <div className=' p-8  md:w-[457px] -2  text-[17.894px]  md:text-[26px]font-[400] mt-8'>
                 <p>
                 Ready to elevate your craft or 
                 transform your home with Ridge

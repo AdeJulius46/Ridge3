@@ -17,19 +17,19 @@ const index = () => {
 
 <Home/>
       </div>
-      <div className='mt-24 yh'>
+      <div className=' yh'>
 
 <Rew/>
       </div>
-      <div className='mt-24 yh'>
+      <div className='  yh'>
 
 <Energy />
       </div>
-      <div className='mt-24 yh'>
+      <div className=' yh'>
 
 <Craft />
       </div>
-      <div className='mt-40 yh'>
+      <div className=' yh'>
 
 <Connect />
       </div>
