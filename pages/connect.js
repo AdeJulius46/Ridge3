@@ -15,7 +15,7 @@ const connect = () => {
                 premium ethanol solutions can 
                 elevate your game
                 </p>
-                <button  className=' text-black  w-[280px] h-[51px] text-[23px]  sha  mt-16  font-bold text-[#001A00] bg-[#FFC655] '>LET’S CONNECT</button>
+                <button  className=' text-black w-full md:w-[280px] h-[51px] text-[23px]  sha  mt-16  font-bold text-[#001A00] bg-[#FFC655] '>LET’S CONNECT</button>
             </div>
             <div className='basis-1/2 '>
                 <Image src={Hand} />

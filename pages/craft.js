@@ -40,7 +40,7 @@ WHO ARE WE FOR
     </div> 
     <div className="absolute w-[378px] h-[150px]    juliut" >
     </div>
-    <div className="p-3  w-[341px]  text-[21.894px] join">
+    <div className="p-3 w-[341px]  text-[18.894px]  md:text-[21.894px]  join">
   <p className=" p-3 "> 
         Join the movement towards a
       more sustainable lifestyle. 
@@ -63,7 +63,7 @@ WHO ARE WE FOR
    <div className="w-full">
     <Image src={Cas} width={400} />
     </div> 
-    <div className="p-2   text-[21.894px] join">
+    <div className="p-2  text-[17.894px]  md:text-[21px] join">
   <p className=" p-2 "> 
       Raise the bar with Ridge
       Energies as your Edible and 
@@ -82,7 +82,7 @@ WHO ARE WE FOR
    <div className="w-full">
     <Image src={Cas1}  width={400}/>
     </div> 
-    <div className="p-2   text-[21.894px] join">
+    <div className="p-2   text-[17.894px]  md:text-[21px]  join">
   <p className=" p-2 "> 
         Join the movement towards a
       more sustainable lifestyle. 
