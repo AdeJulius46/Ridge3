@@ -1,41 +1,87 @@
-import React from 'react' 
-import {Swiper,SwiperSlide} from 'swiper/react'
-import {Pagination, EffectCoverflow,Autoplay} from 'swiper'
-// import 'swiper/swiper-bundle.min.css'
-// import 'swiper/swiper.min.css'
-import Cas1 from '../public/Images/jul.png'
-// import Cas from '../public/Images/jul1.png'
-import Cas2 from '../public/Images/jul2.png'
-const carousel = () => {
+import React from 'react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import {  EffectCoverflow, Pagination, Autoplay  } from 'swiper/modules';
 
-const slider =[
-{
-  title:'juliuiuhxw',
-  description:'julius',
-  backgroundImage: {Cas2}
+// SwiperCore.use([EffectCoverflow, Pag/ination, Autoplay]);
 
-},
-{
-  title:'Helo',
-  description:'marvelloous',
-  backgroundImage: {Cas2}
-},
-{
-  title:'Babe',
-  description:'marvellous',
-  backgroundImage: {Cas2}
-  
-}
-]
+const Carousel = () => {
+  const swiperParams = {
+    slidesPerView: 'auto',
+    centeredSlides: true,
+    spaceBetween: 10,
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+  };
 
+  const images = [
+    {
+      head:'BIO STOVE',
+      image:'Images/jul.png'
+    },
+    {
+      head:'96% FOOD GRADE',
+      image:'Images/jul3.png'
+    },
+    {
+      head:'E10 to E90 Fuel Grade Ethanol',
+      image:'Images/jul2.png'
+    },
+    {
+      head:'BIO STOVE',
+      image:'Images/jul.png'
+    },
+    {
+      head:'E10 to E90 Fuel Grade Ethanol',
+      image:'Images/jul2.png'
+    },
+    {
+      head:'96% FOOD GRADE',
+      image:'Images/jul3.png'
+    }
+  ];
 
-const julius = slider
-console.log(julius.title)
   return (
-<div>
+    <Swiper {...swiperParams} 
+    className='bg-[#FFC655] text-white  text-center  myswipper'
+    modules={[Pagination,EffectCoverflow,Autoplay ]}
+    effect={"coverflow"}
+    grabCursor={true}
+    centeredSlides={true}
+    coverflowEffect={{
+      rotate:0,
+      stretch:0,
+      depth:100,
+      modifier:3,
+      slideShadows:true
+    }}
+    loop={true}
+    pagination={{clickable:true}}
+    slidesPerView={2} 
+    >
 
-</div>
-  )
-}
+      {images.map((image, index) => (
+        <SwiperSlide key={index} className='myswipper-slid text-black '>
+          <img src={image.image}  className='myswipper-slider' alt={`Image ${index + 1}`} />
+          <h1>{image.head}</h1>
+        </SwiperSlide>
+        
+      ))}
+    </Swiper>
+  );
+};
 
-export default carousel
+export default Carousel;

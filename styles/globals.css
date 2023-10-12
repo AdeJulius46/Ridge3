@@ -127,6 +127,41 @@ text-transform: lowercase;
 
 }
 
+
+.myswipper{
+    width: 100%;
+    padding: 8.25rem;
+}
+.myswipper-slider{
+    width: 18.75rem;
+    height: 28.75;
+    object-fit: cover;
+    margin-left: 30%;
+    object-position: center;
+}
+.swiper-3d .swiper-slide-shadow-left {
+    background-image: none !important;
+    background: rgba(242, 255, 242, 0.4);
+    /* opacity: 0.1; */
+}
+.swiper-3d .swiper-slide-shadow-right {
+    background-image: none !important;
+    background: rgba(242, 255, 242, 0.4);
+
+}
+.myswipper-slider{
+    width: 18.75rem;
+    height: 28.75;
+    object-fit: cover;
+    object-position: center;
+}
+.myswipper-slid{
+    padding: 60px;
+ align-content: center;
+    height: 28.75;
+}
+
+
 .carousel-item {
     padding: 20px !important;
     text-align: center !important;
@@ -141,10 +176,6 @@ text-transform: lowercase;
     transform: scale(1.8) !important; /* Adjust the scale factor as needed */
     transition: transform 0.3s !important;
   }
-  
-/* .solutio{
-    background-image: url( linear-gradient( rgb(123, 8, 255, 0.9),);
-} */
 
 
 .yuz{
