@@ -19,8 +19,8 @@ const Navbar2 = () => {
   return (
     <div className='' > 
     {/* for laergescreen */}
-<header className=" hidden  mb-16 md:block flex border-b-1  cursor-pointer bg-none bg-opacity-30 ">
-      <nav className=" mb-5 mt-2  text-[22.291px] border-hr flex   px-5 items-center">
+<header className=" hidden  mb-16 md:block flex border-b-1 fer cursor-pointer bg-none bg-opacity-30 ">
+      <nav className=" mb-5 mt-2  text-[22.291px] border-hr flex    px-5 items-center">
         <div className="ml-16">
 
         <Link href="/" className="">  <Image src={logo1} 
@@ -61,7 +61,7 @@ const Navbar2 = () => {
             {/* for small screen */}
    
             <header className="md:hidden" >
-          <nav className="flex justify-between px-2 z-40 ">
+          <nav className="flex justify-between px-2 z-40  fer ">
           <div className="ml-6 mt-2">
             <Link href="/" className="">  <Image src={logo1} 
                 width={130}

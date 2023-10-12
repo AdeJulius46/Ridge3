@@ -110,6 +110,38 @@ text-transform: lowercase;
     outline:0px;
 
 }
+
+
+.yeske{
+    background-color: #000;
+}
+
+
+.fer
+{
+    margin-top: -65px;
+    z-index: 6;
+    position:fixed !important;
+    width: 100%;
+    background-color: white;
+
+}
+
+.carousel-item {
+    padding: 20px !important;
+    text-align: center !important;
+  }
+  
+  .carousel-item img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  
+  .carousel-item.active {
+    transform: scale(1.8) !important; /* Adjust the scale factor as needed */
+    transition: transform 0.3s !important;
+  }
+  
 /* .solutio{
     background-image: url( linear-gradient( rgb(123, 8, 255, 0.9),);
 } */
