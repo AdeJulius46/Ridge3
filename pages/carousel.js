@@ -74,9 +74,9 @@ const Carousel = () => {
     >
 
       {images.map((image, index) => (
-        <SwiperSlide key={index} className='myswipper-slid text-black '>
+        <SwiperSlide key={index} className='myswipper-slid text-black flex justify-center content-center '>
           <img src={image.image}  className='myswipper-slider' alt={`Image ${index + 1}`} />
-          <h1>{image.head}</h1>
+          <h1 className='text-[8px] self-center  text-center  md:text-[20px] md:ml-8'>{image.head}</h1>
         </SwiperSlide>
         
       ))}

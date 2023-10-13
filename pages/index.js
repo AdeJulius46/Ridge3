@@ -6,7 +6,7 @@ import Rew from './rew'
 import Energy from './energy'
 import Craft from './craft'
 import Connect from './connect'
-import Carousel from './carousel'
+import Car from './Car'
 const index = () => {
   return (
 <div>
@@ -31,7 +31,7 @@ const index = () => {
 <Craft />
       </div>
       <div className=' yh'>
-  <Carousel/>
+  <Car/>
 <Connect />
       </div>
     </div>
