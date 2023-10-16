@@ -7,6 +7,8 @@ import Mid3 from '../public/Images/Group4.png'
 import Mat3 from '../public/Images/mat3.png'
 import Mat from '../public/Images/mat.png'
 import Mat2 from '../public/Images/mat2.png'
+import Dash from "../public/Images/Group 27.png"
+
 const energy = () => {
   return (
     <div className='mt-8 energy '>
@@ -16,6 +18,7 @@ const energy = () => {
         <p className='uppercase font-bold  mb-[80px] ml-[35%] text-[31.196px] font-[700]' >
         Why Ridge stands out  
         </p>
+      
         <div className='grid grid-cols-2 gap-6  relative mt-4'>
             <div>
                 <div>
@@ -92,7 +95,14 @@ const energy = () => {
       </div>
      {/* small screeen */}
       <div className='md:hidden'>
-        <p  className='text-center p-6   text-[19px] uppercase font-bold mb-2'>   Why Ridge  energy stands out </p>
+        <p  className='text-center mt-2  text-[14px] md:text-[19px] uppercase font-bold '>   Why Ridge  energy stands out </p>
+        <div className=' ml-[22%] mb-4' >
+        <Image  src={Dash}
+                  alt='img'  
+                  width={200}
+                  className='md:hidden '
+              />
+        </div>
         <div
         className='flex flex-col '>
           <div className='flex border-b-2 border-[rgba(242, 255, 242, 0.87)]'>

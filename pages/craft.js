@@ -1,6 +1,8 @@
 import Image from "next/image"
 import Cas from '../public/Images/Frame1.png'
 import Cas1 from '../public/Images/Frame4.png'
+import Dash from "../public/Images/Group 27.png"
+
 const craft = () => {
   return (
 <div className="ml-8  md:ml-24 md:mr-16  mb-16">
@@ -57,8 +59,15 @@ WHO ARE WE FOR
 
   </div>
     <div className=" md:hidden">
-      <p className="text-[23px]  text-center  mr-7 p-6 font-bold ">WHO ARE WE FOR</p>
-  <div className="flex flex-col  justify-between gap-16 ">
+      <p className="  text-[15px] md:text-[23px]  text-center  mr-7  font-bold ">WHO ARE WE FOR</p>
+      <div className='md:hidden ml-[22%] mb-4' >
+        <Image  src={Dash}
+                  alt='img'  
+                  width={160}
+                  className=''
+              />
+        </div>
+  <div className="flex flex-col  justify-between gap-16 mt-6 ">
   <div className="w-[310px] ">
    <div className="w-full rounded-t-lg">
     <Image src={Cas} className="rounded-t-lg" width={310} />
@@ -83,7 +92,7 @@ WHO ARE WE FOR
     <Image src={Cas1} className="rounded-t-lg"  width={310}/>
     </div> 
     <div className="p-2   rounded-b-lg text-[17.894px]  md:text-[21px]  join">
-  <p className=" p-2 "> 
+      <p className=" p-2 "> 
         Join the movement towards a
       more sustainable lifestyle. 
       Ridge Energies' Fuel-Grade 

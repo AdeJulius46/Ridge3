@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import Ric from '../public/Images/Framer.png'
-import {AiFillStar} from 'react-icons/ai'
 const rew = () => {
   return (
   <div>
