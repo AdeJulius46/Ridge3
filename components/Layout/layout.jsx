@@ -3,13 +3,14 @@ import Footer from "../Footer"
 import Head from "next/head";
 
 
-const layout = ({children, title}) => {
+const layout = ({children}) => {
   return (
     <div>
         <Head>
         
           <title>
             Ridge
+            Pay my money bro its not funny pay your devs money
           </title>
           
        </Head>
